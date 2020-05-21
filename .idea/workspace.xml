@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee5153f5-cf88-40c3-a04f-9da244fc92a3" name="默认更改列表" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ee5153f5-cf88-40c3-a04f-9da244fc92a3" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +21,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -84,5 +73,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="62" key="FileChooserDialogImpl" timestamp="1590075297931">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590075297931" />
+    <state x="494" y="282" key="Github.CreateGistDialog" timestamp="1590070689680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="282" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1590070689680" />
   </component>
 </project>
