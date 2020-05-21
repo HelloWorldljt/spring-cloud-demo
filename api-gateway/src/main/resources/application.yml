@@ -1,0 +1,55 @@
+spring:
+  profiles:
+    #默认激活的配置
+    active: local
+  application:
+    name: '@pom.name@'
+server:
+  port: 18100
+
+---
+spring:
+  profiles: local
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://119.23.248.65:15600/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: user-server
+    api-b:
+      path: /api-b/**
+      serviceId: business-server
+
+---
+spring:
+  profiles: online
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://119.23.248.65:15600/eureka/
+  instance:
+    #注册时优先使用IP地址注册到“服务发现中心”
+    prefer-ip-address: true
+    #设置外网IP号 注册到eureka的ip地址
+    ip-address: 119.23.248.65
+    #设置外网端口号
+    non-secure-port: 18100
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: user-server
+    api-b:
+      path: /api-b/**
+      serviceId: business-server

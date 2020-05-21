@@ -1,0 +1,39 @@
+
+spring:
+  application:
+    name: user-server
+  profiles:
+    #默认激活的配置
+    active: local
+
+server:
+  port: 16100
+
+---
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:15600/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+spring:
+  profiles: local
+
+---
+spring:
+  profiles: online
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://119.23.248.65:15600/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    #注册时优先使用IP地址注册到“服务发现中心”
+    prefer-ip-address: true
+    #设置外网IP号
+    ip-address: 119.23.248.65
+    #设置外网端口号
+    non-secure-port: 16100

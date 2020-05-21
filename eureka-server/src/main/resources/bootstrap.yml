@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    #默认激活的配置
+    active: local
+  application:
+    name: '@pom.name@'
+server:
+  port: 15600
+
+---
+spring:
+  profiles: local
+
+eureka:
+  client:
+    register-with-eureka: false #是否将eureka自身作为应用注册到eureka注册中心
+    fetch-registry: false #为true时，可以启动，但报异常：Cannot execute request on any known server
+    serviceUrl:
+      defaultZone: http://localhost:15600/eureka/
+
+---
+spring:
+  profiles: online
+
+eureka:
+  client:
+    register-with-eureka: false #是否将eureka自身作为应用注册到eureka注册中心
+    fetch-registry: false #为true时，可以启动，但报异常：Cannot execute request on any known server
+    serviceUrl:
+      defaultZone: http://119.23.248.65:15600/eureka/

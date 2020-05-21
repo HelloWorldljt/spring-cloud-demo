@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: local
+
+server:
+  port: 19100
+
+---
+spring:
+  profiles: local
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/perfectcoding/config-repo.git
+          search-paths: config/{application}
+          username: 2012784041@qq.com
+          password: ljt19930118593x
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://119.23.248.65:15600/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    #注册时优先使用IP地址注册到“服务发现中心”
+    prefer-ip-address: true
+---
+spring:
+  profiles: online
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/perfectcoding/config-repo.git
+          search-paths: config/{application}
+          username: 2012784041@qq.com
+          password: ljt19930118593x
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://119.23.248.65:15600/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    #注册时优先使用IP地址注册到“服务发现中心”
+    prefer-ip-address: true
+    #设置外网IP号
+    ip-address: 119.23.248.65
+    #设置外网端口号
+    non-secure-port: 19100
