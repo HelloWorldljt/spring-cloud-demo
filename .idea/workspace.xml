@@ -1,30 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ee5153f5-cf88-40c3-a04f-9da244fc92a3" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-server/src/test/java/com/springcloud/businessserver/BusinessServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-server/src/test/java/com/springcloud/businessserver/BusinessServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program Files\maven\apache-maven-3.6.1-bin\repo" />
+        <option name="mavenHome" value="E:/Program Files/maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\Program Files\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1YfRgTbZ2kb5p98VOeUyew7yeoA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BusinessServerApplicationTests.contextLoads">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessServerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.businessserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springcloud.businessserver" />
+      <option name="MAIN_CLASS_NAME" value="com.springcloud.businessserver.BusinessServerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.store" />
+      <option name="MAIN_CLASS_NAME" value="com.example.store.StoreApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -32,6 +132,75 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="business-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.businessserver.BusinessServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.configclient.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.rabbitmqserver.RabbitmqServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="store" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.store.StoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.streamserver.StreamServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.userserver.UserServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -45,6 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BusinessServerApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.StoreApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,11 +233,14 @@
       <option name="presentableId" value="Default" />
       <updated>1583331772424</updated>
       <workItem from="1583331773884" duration="448000" />
+      <workItem from="1591884487587" duration="2017000" />
+      <workItem from="1592403308928" duration="844000" />
+      <workItem from="1592830824007" duration="7871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -76,13 +255,110 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="62" key="FileChooserDialogImpl" timestamp="1590075297931">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="334" y="35" key="#Project_Structure" timestamp="1591885015237">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="334" y="35" key="#Project_Structure/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1591885015237" />
+    <state x="309" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592835045069">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="309" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592835045069" />
+    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1592836600595">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="426" height="466" key="DebuggerActiveHint/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592836600595" />
+    <state x="579" y="78" key="FileChooserDialogImpl" timestamp="1591885589028">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="463" y="62" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590075297931" />
+    <state x="579" y="78" key="FileChooserDialogImpl/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1591885589028" />
     <state x="494" y="282" key="Github.CreateGistDialog" timestamp="1590070689680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="282" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1590070689680" />
+    <state width="1663" height="458" key="GridCell.Tab.0.bottom" timestamp="1592837743638">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837743638" />
+    <state width="1663" height="458" key="GridCell.Tab.0.center" timestamp="1592837743637">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.0.center/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837743637" />
+    <state width="1663" height="458" key="GridCell.Tab.0.left" timestamp="1592837743637">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.0.left/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837743637" />
+    <state width="1663" height="458" key="GridCell.Tab.0.right" timestamp="1592837743638">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.0.right/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837743638" />
+    <state width="1663" height="458" key="GridCell.Tab.1.bottom" timestamp="1592837742975">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.1.bottom/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837742975" />
+    <state width="1663" height="458" key="GridCell.Tab.1.center" timestamp="1592837742974">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.1.center/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837742974" />
+    <state width="1663" height="458" key="GridCell.Tab.1.left" timestamp="1592837742974">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.1.left/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837742974" />
+    <state width="1663" height="458" key="GridCell.Tab.1.right" timestamp="1592837742975">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="458" key="GridCell.Tab.1.right/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592837742975" />
+    <state width="1663" height="388" key="GridCell.Tab.2.bottom" timestamp="1592406582211">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="388" key="GridCell.Tab.2.bottom/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592406582211" />
+    <state width="1663" height="388" key="GridCell.Tab.2.center" timestamp="1592406582210">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="388" key="GridCell.Tab.2.center/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592406582210" />
+    <state width="1663" height="388" key="GridCell.Tab.2.left" timestamp="1592406582210">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="388" key="GridCell.Tab.2.left/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592406582210" />
+    <state width="1663" height="388" key="GridCell.Tab.2.right" timestamp="1592406582210">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="388" key="GridCell.Tab.2.right/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592406582210" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1592835070759">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592835070759" />
+    <state x="355" y="70" key="SettingsEditor" timestamp="1592836466074">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="355" y="70" key="SettingsEditor/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592836466074" />
+    <state x="552" y="194" width="603" height="532" key="find.popup" timestamp="1592835283224">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="552" y="194" width="603" height="532" key="find.popup/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592835283224" />
+    <state x="365" y="100" key="new project wizard" timestamp="1592833516353">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="365" y="100" key="new project wizard/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1592833516353" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1591886231002">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920/2560.81.1366.728@0.0.1707.920" timestamp="1591886231002" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store/src/test/java/com/example/store/StoreApplicationTests.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business-server/src/test/java/com/springcloud/businessserver/BusinessServerApplicationTests.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

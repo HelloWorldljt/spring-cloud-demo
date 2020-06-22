@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    #默认激活的配置
+    active: local
+  application:
+    name: '@pom.name@'
+server:
+  port: 15900
+
+---
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:mysql://119.23.248.65:3306/store
+    username: root
+    password: LjtYc939487@love
+# mybatis对应的映射文件路径
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  # mybatis对应的实体类
+  type-aliases-package: com.example.store.model
+#eureka:
+#  client:
+#    register-with-eureka: false #是否将eureka自身作为应用注册到eureka注册中心
+#    fetch-registry: false #为true时，可以启动，但报异常：Cannot execute request on any known server
+#    serviceUrl:
+#      defaultZone: http://localhost:15600/eureka/
