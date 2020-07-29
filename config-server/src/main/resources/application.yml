@@ -17,7 +17,7 @@ spring:
           uri: https://gitee.com/perfectcoding/config-repo.git
           search-paths: config/{application}
           username: 2012784041@qq.com
-          password: ljt19930118593x
+          password:
 
 eureka:
   client:
@@ -38,7 +38,7 @@ spring:
           uri: https://gitee.com/perfectcoding/config-repo.git
           search-paths: config/{application}
           username: 2012784041@qq.com
-          password: ljt19930118593x
+          password:
 
 eureka:
   client:

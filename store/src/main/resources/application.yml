@@ -13,7 +13,7 @@ spring:
   datasource:
     url: jdbc:mysql://119.23.248.65:3306/store
     username: root
-    password: LjtYc939487@love
+    password:
 # mybatis对应的映射文件路径
 mybatis:
   mapper-locations: classpath:mapper/*.xml
